@@ -68,9 +68,9 @@ export const V2_ROUTER_ADDRESSES: AddressMap = {
   [ChainId.POLYGON]: '0xedf6066a2b290c185783862c7f4776a2c8077ad1',
   [ChainId.BLAST]: '0xBB66Eb1c5e875933D44DAe661dbD80e5D9B03035',
   // @TODO no v2 contract deployed, just place a non-exist address here instead
-  [ChainId.OPBNB]: '0xC92535e48070f1e0b865f96d7bbeBCbC96198187',
+  [ChainId.OPBNB]: '0x47E1E220c92d1C98cd718a8F35301b4E1a659be6',
   // @TODO no v2 contract deployed, just place a non-exist address here instead
-  [ChainId.OPBNB_TESTNET]: '0xC92535e48070f1e0b865f96d7bbeBCbC96198187',
+  [ChainId.OPBNB_TESTNET]: '0x47E1E220c92d1C98cd718a8F35301b4E1a659be6',
 }
 
 // Networks that share most of the same addresses i.e. Mainnet, Goerli, Optimism, Arbitrum, Polygon
@@ -256,6 +256,7 @@ const ZKSYNC_ADDRESSES: ChainAddresses = {
 
 const OPBNB_ADDRESSES: ChainAddresses = {
   ...DEFAULT_ADDRESSES,
+  multicallAddress: '0xbdA0AAF5fC295B825CBA7D8BCAFc0F092eEfe131',
   v3CoreFactoryAddress: '0x21853Bf4dA52D9E3b05c31A8d8e00BFe928CC612',
   nonfungiblePositionManagerAddress: '0xC92535e48070f1e0b865f96d7bbeBCbC96198187',
   swapRouter02Address: '0x47E1E220c92d1C98cd718a8F35301b4E1a659be6',
@@ -263,6 +264,7 @@ const OPBNB_ADDRESSES: ChainAddresses = {
 
 const OPBNB_TESTNET_ADDRESSES: ChainAddresses = {
   ...DEFAULT_ADDRESSES,
+  multicallAddress: '0xbdA0AAF5fC295B825CBA7D8BCAFc0F092eEfe131',
   v3CoreFactoryAddress: '0x21853Bf4dA52D9E3b05c31A8d8e00BFe928CC612',
   nonfungiblePositionManagerAddress: '0xC92535e48070f1e0b865f96d7bbeBCbC96198187',
   swapRouter02Address: '0x47E1E220c92d1C98cd718a8F35301b4E1a659be6',
